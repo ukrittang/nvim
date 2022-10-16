@@ -19,7 +19,7 @@ n.setup({
   },
   filters = {
     dotfiles = false,
-    custom = {},
+    custom = { "^.git$" },
     exclude = {},
   },
 })

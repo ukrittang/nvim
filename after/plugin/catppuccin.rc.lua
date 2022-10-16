@@ -26,6 +26,7 @@ n.setup({
     gitsigns = true,
     nvimtree = true,
     treesitter = true,
+    telescope = true,
     mason = true,
     indent_blankline = {
       enabled = true,
