@@ -22,7 +22,11 @@ n.setup({
     operators = {},
   },
   integrations = {
+    cmp = true,
+    gitsigns = true,
+    nvimtree = true,
     treesitter = true,
+    mason = true,
     indent_blankline = {
       enabled = true,
       colored_indent_levels = false,
