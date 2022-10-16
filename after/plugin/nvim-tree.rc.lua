@@ -2,8 +2,8 @@ local status, n = pcall(require, "nvim-tree")
 if (not status) then return end
 
 -- disable netrw at the very start
--- vim.g.loaded_netrw = 1
--- vim.g.loaded_netrwPlugin = 1
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
 n.setup({
   sort_by = "case_sensitive",
@@ -19,6 +19,8 @@ n.setup({
   },
   filters = {
     dotfiles = false,
+    custom = {},
+    exclude = {},
   },
 })
 
