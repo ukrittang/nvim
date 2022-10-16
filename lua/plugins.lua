@@ -25,6 +25,8 @@ packer.startup(function(use)
     },
   }
   use "lukas-reineke/indent-blankline.nvim"
+  use { 'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons' }
+  use 'lewis6991/gitsigns.nvim'
 
   use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
   use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP
