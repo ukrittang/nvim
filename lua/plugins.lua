@@ -24,6 +24,7 @@ packer.startup(function(use)
       'nvim-tree/nvim-web-devicons', -- optional, for file icons
     },
   }
+  use "lukas-reineke/indent-blankline.nvim"
 
   use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
   use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP

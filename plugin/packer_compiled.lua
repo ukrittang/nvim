@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/tang/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/Users/tang/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/tang/.local/share/nvim/site/pack/packer/start/lualine.nvim",
