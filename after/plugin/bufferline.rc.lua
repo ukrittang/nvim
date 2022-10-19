@@ -8,7 +8,7 @@ bufferline.setup {
     show_buffer_close_icons = false,
     show_close_icon = false,
     color_icons = true,
-    separator_style = "padded_slant",
+    separator_style = "slant",
   },
   highlights = require("catppuccin.groups.integrations.bufferline").get()
 }
